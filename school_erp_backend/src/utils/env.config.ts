@@ -1,0 +1,13 @@
+import {config} from 'dotenv';
+config();
+export const port = String(process.env.PORT);
+export const dbUsername = String(process.env.DB_USERNME);
+export const dbPassword = String(process.env.DB_PASSWORD);
+export const dbHost = String(process.env.DB_HOST);
+export const dbName = String(process.env.DB_NAME);
+export const mailingURL = String(process.env.MAILING_URL);
+export const mailingAPIKey = String(process.env.MAILING_API_KEY);
+export const baseEmail = String(process.env.BASE_EMAIL);
+export const baseName = String(process.env.BASE_NAME);
+export const jwtSecret = String(process.env.JWT_SECRET);
+export const jwtAdminSecret = String(process.env.JWT_ADMIN_SECRET);
